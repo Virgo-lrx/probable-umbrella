@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="./css/common.css" />
+		<style type="text/css">
+			body{
+				background-color: #f5f5f5;
+				
+				font-family: "microsoft yahei";
+			}
+			.top{
+				width: 100%;
+				position: relative;
+				background-color: #FFFFFF;
+				display: flex;
+				justify-content: flex-end;
+			}
+			.nav_seach{
+				width: 75%;
+				height: 40px;
+				/* border-bottom: 1px solid #BCBCBC; */
+				display: flex;
+				align-items: center;
+				margin-right: 4%;
+				position: relative;
+			}
+			
+			 .nav_seach input {
+				height: 26px;
+				width: 60%;
+				flex-grow: 1;
+				margin-right: 10px;
+				border: none;
+				background-color: #F5F5F5
+				
+			}
+			.top img{
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				left: 0;
+				top: 5px;
+				margin-left: 4%;
+			}
+			.nav_seach p{
+				text-align: right;
+				  /*  font-weight: bold; */
+				    font-size: 18px;
+				    line-height: 40px;		
+				}
+			.nav_seach img{
+				width: 26px;
+				height: 28px;
+				position: absolute;
+				top: 7px;
+				left: -37px;
+				background-color: #F5F5F5
+			}	
+			/*  */
+			.middle{
+				width: 100%;
+			}
+			.box1{
+				margin-right: 4%;
+				margin-left: 4%;
+				margin-top: 10px;
+			}
+			.box{
+				display: flex;			
+				align-items: center;
+				padding: 5px 0;
+			}
+			.box .hot{
+				width: 22px;
+				height: 22px;
+				display: inline-block;
+				margin-right: 5px;
+			}
+			.box p{
+				color: #7F7F7F;
+				font-size: 16px;
+				font-weight: 800;		
+			}
+			.jilu ul {
+				display:flex;
+				flex-wrap: wrap;
+				margin-bottom: 25px;
+			}
+			.jilu ul li{
+				width: 20%;
+				height: 30px;
+				background-color: #FFFFFF;
+				margin-left: 10px;
+				margin-top: 15px;
+				text-align: center;
+				line-height: 30px;
+				border-radius: 15px;
+				font-size: 14px;
+				color: #7F7F7F;
+				
+			}
+			.box1>p{
+				color: #7F7F7F;
+				margin-top: 10px;
+				font-size: 14px;
+			}
+			/*  */
+				
+			.qingkong{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 20px;
+				font-size: 15px;
+				color: #7F7F7F;
+			}
+			.qingkong img{
+				width: 22px;
+				height: 22px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<a href="index.html"><img src="img/left%20arrow.png" ></a>
+			<div class="nav_seach">
+				<input type="" name="" id=""placeholder="搜索商品"/>
+				<img src="./img/搜索.png" >
+				<p>搜索</p>
+			</div>			
+		</div>
+		<!--  -->
+		<div class="middle">
+			<div class="box1">
+				<div class="box">
+					<img src="./img/hot.png" class="hot">
+					<p>搜索商品</p>
+				</div>
+				
+				<div class="jilu">
+					<ul>
+						<li>苹果</li>
+						<li>牛仔裤</li>
+						<li>笔记本</li>
+						<li>菠萝</li>
+						<li>保温杯</li>
+						<li>零食</li>
+						<li>阿胶枣</li>
+					</ul>
+				</div>
+				
+				<div class="box">
+					<img src="./img/clock.png" class="hot">
+					<p>搜索历史</p>
+				</div>
+				<p>水晶套装</p>
+				<p>卫生纸</p>
+				<div class="qingkong">
+					<img src="img/删除清空.png" >
+					<p>清空搜索历史</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

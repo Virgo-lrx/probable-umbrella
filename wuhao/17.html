@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/common.css" />
+		<style type="text/css">
+			.topbox {
+				background-color: #ff6f18;
+				height: 220px;
+			}
+
+			.headbox {
+				height: 60px;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+			}
+
+			.headbox h3 {
+				font-size: 22px;
+				color: white;
+			}
+
+			.headbox img {
+				display: block;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				left: 10px;
+				top:16px
+			}
+
+			.headbox .mx {
+				text-decoration: none;
+				font-size: 18px;
+				color: white;
+				position: absolute;
+				right: 10px;
+				
+			}
+
+			.jin {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 160px;
+				justify-content: center;
+
+			}
+
+			.jin .sheng {
+				color: white;
+			}
+
+			.jin .sz {
+				font-size: 30px;
+				color: white;
+				font-weight: bold;
+				margin-top: 15px;
+			}
+
+			.middlebox {
+				background-color: #e56416;
+				height: 80px;
+				display: flex;
+			}
+
+			.middlebox_left {
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.middlebox_right {
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.by {
+				font-size: 14px;
+				color: #a3a3a3;
+			}
+
+			.xf {
+				color: white;
+				font-size: 16px;
+				font-weight: bold;
+				margin-top: 10px;
+			}
+
+			.zhangdan {
+				height: 60px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				background-color: #f9e9e0;
+			}
+			.zhangdan_left{
+				display: flex;
+				margin-left: 10px;
+			}
+			.zhangdan_left p{
+				font-size: 18px;
+				margin-left: 8px;
+			}
+			.zhangdan_left img{
+				width: 20px;
+				height: 20px;
+			}
+			.zhangdan_right{
+				margin-right: 10px;
+			}
+			.zhangdan_right a{
+				display: flex;
+				text-decoration: none;
+			}
+			.zhangdan_right a p{
+				color: #c8c0bb;
+			}
+			.mainbox_a{
+				height: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.date{
+				width: 15%;
+			}
+			.jiant{
+				width: 15%;
+				margin-left: 10px;
+			}
+			.cz{
+				width: 50%;
+			}
+			.qian{
+				width: 20%;
+			}
+			.jiant img{
+				width: 30px;
+				height: 35px;
+				margin-bottom: 25px;
+			}
+			.date p{
+				color: #b9b9b9;
+				padding-bottom: 10px;
+				margin-left: 10px;
+				font-size: 18px;
+			}
+			.chong{
+				font-size: 20px;
+			}
+			.cz p{
+				padding-bottom: 10px;
+			}
+			.qian {
+				color: #afafaf;
+				font-size: 26px;
+				margin-bottom: 10px;
+				margin-right: 10px;
+			}
+			.fu{
+				color: red;
+			}
+			.bottom{
+				width: 80%;
+				margin-left: 10%;
+				margin-right: 10%;
+				margin-top: 20px;
+			}
+			.bottom form input{
+				width:100% ;
+				height: 40px;
+				background-color: #fe5619;
+				border: none;
+				border-radius: 20px;
+				color: white;
+				font-size: 18px;
+			}
+			a{
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bigbox">
+			<div class="topbox">
+				<div class="headbox">
+					<a href="../mine.html"><img src="img/向左白箭头.png"></a>
+					<h3>我的余额</h3>
+					<a href="18.html" class="mx">账单明细</a>
+				</div>
+				<div class="jin">
+					<p class="sheng">剩余金额（元）</p>
+					<p class="sz">702104.00</p>
+				</div>
+			</div>
+			<div class="middlebox">
+				<div class="middlebox_left">
+					<p class="by">本月消费</p>
+					<p class="xf">1200.09</p>
+				</div>
+				<div class="middlebox_right">
+					<p class="by">累计消费</p>
+					<p class="xf">810010.09</p>
+				</div>
+			</div>
+			<div class="zhangdan">
+				<div class="zhangdan_left">
+					<img  src="img/账单管理.png">
+					<p>最近两笔账单</p>
+				</div>
+				<div class="zhangdan_right">
+					<a href="#">
+						<p>全部</p>
+						<img src="img/向右箭头.png">
+					</a>
+				</div>
+			</div>
+			<div class="mainbox">
+				<div class="mainbox_a">
+					<div class="date">
+						<p>周日</p>
+						<p>08/20</p>
+					</div>
+					<div class="jiant">
+						<img src="img/QQ截图20201203161744.png">
+					</div>
+					<div class="cz">
+						<p class="chong">充值</p>
+						<p><a href="20.html" style="color: #000;">来自中国银行（6425）</a></p>
+					</div>
+					<div class="qian">
+						<p>+2470</p>
+					</div>
+				</div>
+				<div class="mainbox_a">
+					<div class="date">
+						<p>周五</p>
+						<p>08/18</p>
+					</div>
+					<div class="jiant">
+						<img src="img/QQ截图20201203160757.png">
+					</div>
+					<div class="cz">
+						<p class="chong">消费</p>
+						<p><a href="20.html" style="color: #000000;">购买[铝合金拉杆箱]</a></p>
+					</div>
+					<div class="qian">
+						<p class="fu">-700</p>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<form action="#" method="get">
+					<a href="../liuranxi/19.html"><input type="button" name="tj" id="tj" value="充值" /></a>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

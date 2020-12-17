@@ -1,0 +1,92 @@
+.top-box{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20px;
+}
+.top-box img{
+	width: 20px;
+	height: 20px;
+}
+.top-box p{
+	font-size: 19px;
+	font-weight: 600;
+}
+.top-box .guanl{
+	font-size: 15px;
+}
+.daohang-box{
+	padding-top: 10px;
+}
+.daohang-box ul{
+	display: flex;
+}
+.daohang-box ul li{
+	flex: 1;
+	text-align: center;
+	line-height: 20px;
+	padding-bottom: 20px;
+	color: #9a9a9a;
+}
+.daohang-box li:hover{
+	border-bottom: red 3px solid;
+	color: red;
+	font-weight: 550;
+}
+.youhui{
+	background-color: rgb(245,245,245);
+	padding: 20px;
+}
+.zhuanxiang{
+	background: #fff;
+	display: flex;
+	align-items: center;
+	border-radius: 8px;
+	margin-bottom: 18px;
+}
+.jiage{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: red;
+	display: flex;
+	align-items: center;
+	border-right: #000000 dashed 1px;
+}
+.jiage p{
+	font-weight: 600;
+	font-size: 30px;
+}
+.shijian{
+	padding-left: 20px;
+	line-height: 25px;
+}
+
+.shijian h2{
+	font-weight: 600;
+}
+
+.shijian ul li{
+	list-style: disc;
+	color: #989898;
+	margin-left: 15px;
+	font-size: 13px;
+}
+.bky{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #828282;
+	display: flex;
+	align-items: center;
+	border-right: #000000 dashed 1px;
+}
+.bky p{
+	font-weight: 600;
+	font-size: 30px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+		<style type="text/css">
+			.headbox {
+				height: 60px;
+				background-color: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+			}
+			
+			.headbox h3 {
+				font-weight: bold;
+				font-size: 22px;
+			}
+			
+			.headbox img {
+				display: block;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				left: 10px;
+			}
+			.middle{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-top: 50px;
+			}
+			.middle img{
+				width: 150px;
+				height: 150px;
+			}
+			.middle .tj{
+				font-size: 20px;
+				flex: 1;
+			}
+			.middle .cg{
+				color: #b0b0b0;
+				font-size: 16px;
+				flex: 1;
+				margin-top: 20px;
+			}
+			.bottom{
+				margin-top: 40px;
+			}
+			.bottom form{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.bottom form .ck{
+				width: 200px;
+				height: 40px;
+				background-color: #fe5619;
+				border-radius: 30px 30px 30px 30px;
+				color: white;
+				border: none;
+				font-size: 18px;
+			}
+			
+			.bottom form .jx{
+				width: 200px;
+				height: 40px;
+				margin-top: 20px;
+				border-radius: 30px 30px 30px 30px;
+				border: none;
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bigbox">
+			<div class="headbox">
+				<img src="img/向左箭头.png" >
+				<h3>提交成功</h3>
+			</div>
+			<div class="main">
+				<div class="middle">
+					<img src="img/QQ截图20201203114352.png" >
+					<p class="tj">提交成功</p>
+					<p class="cg">您已成功提交评价，请等待平台审核</p>
+				</div>
+				<div class="bottom">
+					<form action="#" method="get">
+						<input type="submit" name="ck" id="ck" value="查看订单"  class="ck"/>
+						<input type="submit" name="jx" id="jx" value="继续购物" class="jx" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		
+		<style type="text/css">
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			
+			.dingbu{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				font-size: 20px;
+				margin-top: 20px;
+				margin-left: 20px;
+				padding-bottom: 20px;
+			}
+			.dingbu img{
+				position: absolute;
+				left: 0;
+				top:0;
+			}
+			.xiongmao{
+				
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				color: white;
+				display: flex;
+				height: 100px;
+				background-image: linear-gradient(to right,#ff6d18 , #fe241d);
+			}	
+			.xmtou{ position: absolute;
+			right: 5%;
+			}
+			.xiongmao ul{
+				margin-right: 100px;
+			}
+			.shouhuo{
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				margin-top: 20px;
+				display: flex;
+				padding-bottom: 20px;
+			}
+			.shouhuo ul li{
+				padding-top: 10px;
+			}
+			.dizhi{
+				color: #959595;
+				font-size: 10px;
+			}
+			.shouhuo img{
+				position: absolute;
+				left: 5%;
+				top: 20px;
+			}
+			.shouhuo p{
+				margin-top: -10px;
+				
+			}
+			.zjkongxi{
+				width: 100%;
+				height: 10px;
+				background-color: #f5f5f5;
+				
+			}
+			.jiage{
+				justify-content: start;
+				align-items: center;
+				position: relative;
+				margin-top: 20px;
+				display: flex;							
+			}
+			.jiage ul li{
+				margin-left: 5px;
+				padding-top: 10px;
+			}
+			.qian{
+				color: #959595;
+				font-size: 10px;
+			}
+			.jiage p{
+				position: absolute;
+				right: 5%;
+			}
+			.yunfei{
+				position: absolute;
+				left: 5%;
+				bottom: -30px;
+				color: #959595;
+			}
+			.yunfeijiage{
+				position: absolute;
+				right: 5%;
+				bottom: -30px;
+			}
+			.jiage img{
+				padding-left: 20px;
+			}
+			.tupian{
+				display: flex;				
+			}
+			.sjfk{
+				justify-content: start;
+				align-items: center;
+				position: relative;
+				margin-top: 50px;
+				display: flex;		
+				margin-left: 5%;
+				padding-bottom: 20px;
+				
+			}
+			.sjfkjiage{
+				position: absolute;
+				right: 5%;
+				color: #FE241D;
+			}
+			.dingdan{
+				margin-top: 20px;
+				margin-left: 5%;
+				color: #959595;
+				font-size: 10px;
+			}
+			.dingdan ul li{
+				margin-top: 10px;
+			}
+			.zuihou{
+				justify-content: start;
+				align-items: center;
+				margin-top: 20px;
+				display: flex;		
+			}
+			.qxdd{
+				border: 2px solid #959595;
+				width: 130px;
+				height: 30px;
+				border-radius: 25px;
+				text-align: center;
+				padding-top: 5%;
+				margin-left: 20px;
+			}
+			.fk{
+				color: #FE241D;
+				border: 2px solid #FE241D;
+				width: 130px;
+				height: 30px;
+				border-radius: 25px;
+				text-align: center;
+				padding-top: 5%;
+				margin-left: 30px;
+			}
+			a{
+				text-decoration: none;
+				
+			}
+			</style>
+	</head>
+	<body>
+		<div class="dingbu">
+			<a href="../shopcart.html"><img src="4RA%7DORB(H~RPD%7D@@Z~VRV%25E.png" ></a>
+			<h1>订单详情</h1>
+		</div>
+		<div class="xiongmao">
+			<ul>
+				<li>等待卖家付款</li>
+				<li>剩余23小时12分自动关闭</li>
+			</ul>
+			<div class="xmtou">
+				<img src="@CUDEW%5BRMYXT4V92MWZ44LS.png" >
+			</div>			
+		</div>
+		<div class="shouhuo">
+			<img src="N9CTFV6BTH5DXPAL%25F44@C3.png" >
+			<ul>
+				<li>收货人：小明</li>
+				<li class="dizhi"><a href="8.html" style="color: #4D4D4D;">收货地址：天津市7-01百成科技</a></li>
+			</ul>
+			<p>15022010010</p>
+		</div>
+		<div class="zjkongxi"></div>
+		<div class="jiage">
+			<div class="tupian">
+				<img src="R9Q%7DC%5BJXMBM~C1N%60ZF$7@YD.png" >
+			<ul>
+				<li>办公室颈间理疗</li>
+				<li class="qian">x1</li>
+			</ul>
+			</div>
+			
+			<p>￥72</p>
+			<span class="yunfei">运费</span>
+			<span class="yunfeijiage">￥0.00</span>
+		</div>
+		<div class="sjfk">
+			<p>实际付款（含运费）</p>
+			<p class="sjfkjiage">￥72.00</p>
+		</div>
+		<div class="zjkongxi">
+			
+		</div>
+		<div class="dingdan">
+			<ul>
+				<li>订单编号：831202348210410</li>
+				<li>创建时间：2018-09-07 12：32</li>
+			</ul>
+		</div>
+		<div class="zuihou">
+			<div class="qxdd">
+				取消订单
+			</div>
+			<div class="fk">
+				<a href="../zhifu.html" style="color: #4D4D4D;">付款</a>
+			</div>
+		</div>
+	</body>
+</html>

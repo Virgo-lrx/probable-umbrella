@@ -1,0 +1,53 @@
+.top-box{
+	margin: 10px;
+}
+.top-box img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+}
+.top-box p{
+	text-align: center;
+	font-weight: 700;
+	line-height: 30px;
+}
+.chongzhi-box{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+}
+.chongzhi-box ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.chongzhi-box  li select{
+	border: none;
+}
+.chongzhi-box p{
+	color: #767676;
+	font-size: 15px;
+}
+.chongzhi-box input{
+	width: 100%;
+	height: 70px;
+	font-size: 50px;
+	border: none;
+	border-bottom: #c8c8c8 1px solid;
+}
+.tijiao-box{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.tijiao-box input{
+	width: 100%;
+	height: 50px;
+	border-radius: 50px;
+	background: linear-gradient(#fe6318,#fe281c);
+	border: none;
+	color: #fff;
+	font-size: 17px;
+}

@@ -1,0 +1,170 @@
+.top-banner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-banner img {
+	display: block;
+}
+
+.left-img {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 24%;
+	margin-right: 3%;
+}
+
+.middle-img {
+	margin-top: 6%;
+	margin-bottom: 6%;
+	width: 46%;
+}
+
+.right-img {
+	width: 24%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 3%;
+}
+
+.top-bot {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.top-bot p {
+	margin-bottom: 2%;
+}
+
+.top-bot .jg {
+	font-weight: 900;
+	color: red;
+}
+
+.top-bot .kc {
+	font-weight: 200;
+	color: #a1a1a1;
+}
+
+.top-bot ul {
+	display: flex;
+	justify-content: center;
+}
+
+.top-bot ul li {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.top-bot .ys {
+	font-weight: 700;
+	color: #0000FF;
+}
+
+#middle-box {
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.xx-box {
+
+	margin-bottom: 5%;
+	margin-top: 5%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.xx-box p {
+	align-self: flex-start;
+	color: #848484;
+}
+
+.xx-box ul {
+	display: flex;
+
+	align-self: flex-end;
+}
+
+.xx-box ul li {
+	border: #7E8C8D 1px solid;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding: 8px;
+	margin-left: 10px;
+	color: #7E8C8D;
+}
+
+.xx-box li:hover {
+	background-color: red;
+	color: #fff;
+}
+
+.middle-bot {
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+}
+
+.middle-bot p {
+	align-self: flex-start;
+	color: #848484;
+}
+
+.middle-bot ul {
+	align-self: flex-end;
+	display: flex;
+}
+
+.middle-bot ul li {
+	border: #A1A1A1 1px solid;
+	padding: 7px;
+}
+
+.jian {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.jia {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+#bottom-box{
+	margin-top: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#bottom-box ul{
+	display: flex;
+	justify-content: center;
+}
+#bottom-box ul li{
+	font-size: 19px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+#bottom-box a{
+	color: #fff;
+}
+.gwc{
+	padding-right: 20px;
+	padding-left: 18px;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 35px;
+	background: rgb(255,111,24);
+}
+.gm{
+	padding-left: 24px;
+	padding-right: 20px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 35px;
+	background: rgb(254,35,29);
+}
+.bottom .bottom-a{
+	height: 50px;
+}
